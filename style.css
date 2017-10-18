@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+table
+{
+	width:100%;
+	table-layout: fixed;
+}
+
+table , tr , td
+{
+	background-color: white;
+	text-align: center;
+}
+
+td
+{
+	padding:15;
+	border-right: 1px solid black;
+}
+
+a:link
+{
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.none_border
+{
+	border:none;
+}
+
+p{color:black;}
+
+.polaroid 
+{
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.container 
+{
+  padding: 10px;
+}
+.container a:hover {
+    color: #9999ff;
+}
+
+.footer 
+{
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+section, nav 
+{
+    padding: 1.5em 1em;
+    opacity: 1;
+}
+section.bg-white, nav.bg-white 
+{
+    background: #000;
+    color: white;
+}
